@@ -7,7 +7,7 @@ import os
 # Main
 # Ask for the root directory
 root = Tk()
-root.filename =  askdirectory(initialdir = ".",title = "Choose the Root Directory")
+root.filename =  askdirectory(initialdir = ".",title = "Choose the site's root directory")
 root.withdraw()
 dirname=root.filename
 
